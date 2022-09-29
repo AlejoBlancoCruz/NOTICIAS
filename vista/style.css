@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 15px;
+    background-color: #f0ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, option, .selector, #resultado {
+    background-color: #f5f5dc;
+}
+
+.selector, #resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    margin: 25px 0px 25px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #000000;
+}
+
+#resultado {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.uno, .dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.municipio, .provincia, .tempmax, .tempmin {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#termometro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.termometro {
+    width: 250px;
+    height: auto;
+}
+
+.helada {
+    background-color: rgb(63, 72, 204);
+}
+
+.muyFrio {
+    background-color: rgb(0, 162, 232);
+}
+
+.frio {
+    background-color: rgb(153, 217, 234);
+}
+
+.templado {
+    background-color: rgb(181, 230, 29);
+}
+
+.calido {
+    background-color: rgb(255, 242, 0);
+}
+
+.muyCalido {
+    background-color: rgb(255, 127, 39);
+}
+
+.extrema {
+    background-color: rgb(237, 28, 36);
+}
