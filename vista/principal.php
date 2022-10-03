@@ -12,10 +12,14 @@
 </head>
 
 <body>
-    <div class="selector">
+<?php include_once "header.php";?>
+    <!-- Aqui va el contenido-->
+    
+   <div class="selector">
         <div id="noticias"></div>
     </div>
-
+    
+    <?php include_once "footer.php";?>
 </body>
 
 </html>
